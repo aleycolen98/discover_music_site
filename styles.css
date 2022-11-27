@@ -7,15 +7,7 @@ p2{
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 15px;
-}
-
-p3{
-
-    color: black;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-
-}
+}           
 
 .main-container{
 
@@ -50,8 +42,6 @@ footer{
 .main-about-section{
 
     background-color: white;
-
-
 }
 
 .main-about-section h1, p{
@@ -69,7 +59,7 @@ footer{
     color: black;
 }
 
-.main-band1 h1, h2, p2, p3{
+.main-band1 h1, h2, p2{
 
     color: black;
     margin-left: 5%;
@@ -89,9 +79,16 @@ p{
     font-size: 20px;
 }
 
-img {
+.img-band{
 
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+
     height: auto;
+    width: 100%;
 
 }
